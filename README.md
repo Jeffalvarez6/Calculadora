@@ -1,0 +1,6 @@
+@startuml
+class CalculadoraNumerosGrandes {
+    + sumar(numero1: String, numero2: String): String
+    - cargarPila(numero: String): Deque<Integer>
+}
+@enduml
